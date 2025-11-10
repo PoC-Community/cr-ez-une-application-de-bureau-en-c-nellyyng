@@ -1,7 +1,8 @@
-namespace TodoListApp.Models;
-
-public class TaskItem
+namespace TodoListApp
 {
-    public string Title { get; set; } = string.Empty;
-    public bool IsCompleted { get; set; } = false;
+    public class TaskItem
+    {
+        public string Text { get; set; } = string.Empty;
+        public bool IsCompleted { get; set; }
+    }
 }
